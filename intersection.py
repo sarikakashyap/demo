@@ -1,0 +1,13 @@
+##a={1,7,8,3,5}
+##c={11,7,80,3,85}
+##b=str(sorted(a))
+##z=str(sorted(c))
+##strarr=list(b,z)
+##print(strarr)
+##print(a.intersection(c))
+a=sorted([1,13,5,4,7])
+b=sorted([1,2,7,13,6])
+c=a+b
+s=",".join(map(str,b))
+print(list(s))
+print(type(s))
